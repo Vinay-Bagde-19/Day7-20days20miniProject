@@ -1,0 +1,71 @@
+body{
+    background-color: #61f7e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background-color: #9942e5;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2px;
+    color: rgb(35, 31, 222);
+    text-shadow: 1px 1px 10px;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#password{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#generate{
+    margin-top: 20px;
+    background-color: #4be450;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+#generate:hover{
+    background-color: #0ac300;
+    box-shadow: 1px 1px 10px rgba(95, 11, 231, 0.2);
+    border: 1px solid black;
+}
+
+#developBy{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 0px;
+    padding-top: 2%;
+    margin-bottom: 5px;
+}
+
+input{
+    font-weight: bold;
+    font-size: larger;
+}
